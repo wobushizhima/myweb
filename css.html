@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>css</title>
+    <style>
+        .div1{
+            position:relative;
+            margin:auto;
+            height: 50px;
+            background-color: red;
+            width: 50px;
+            text-align: center;
+            /*换行，属性规定自动换行的处理方法*/
+            word-break:break-all;
+            /*属性允许长单词或 URL 地址换行到下一行*/
+            word-wrap:break-word;
+            /*z-index: 99;*/
+        }
+        img{
+            display: block;
+            margin:0 auto;
+            height: 50px;
+            width:50px;
+        }
+        #div2{
+            position: absolute;
+            top:0px;
+            right: 300px;
+            width: 300px;
+            border: 3px solid #73AD21;
+            padding: 10px;
+            z-index: 99;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">第一行第二行第三行第四行</div>
+    <img src="shit.jpg">
+    <div id="div2">我就喜欢靠右</div>
+
+</body>
+</html>
