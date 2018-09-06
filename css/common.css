@@ -1,0 +1,35 @@
+.corner{
+    background: -webkit-linear-gradient(to left, #f00, #f00) left top no-repeat,
+    -webkit-linear-gradient(to bottom, #f00, #f00) left top no-repeat,
+    -webkit-linear-gradient(to left, #f00, #f00) right top no-repeat,
+    -webkit-linear-gradient(to bottom, #f00, #f00) right top no-repeat,
+    -webkit-linear-gradient(to left, #f00, #f00) left bottom no-repeat,
+    -webkit-linear-gradient(to bottom, #f00, #f00) left bottom no-repeat,
+    -webkit-linear-gradient(to left, #f00, #f00) right bottom no-repeat,
+    -webkit-linear-gradient(to left, #f00, #f00) right bottom no-repeat;
+    background: -o-linear-gradient(to left, #f00, #f00) left top no-repeat,
+    -o-linear-gradient(to bottom, #f00, #f00) left top no-repeat,
+    -o-linear-gradient(to left, #f00, #f00) right top no-repeat,
+    -o-linear-gradient(to bottom, #f00, #f00) right top no-repeat,
+    -o-linear-gradient(to left, #f00, #f00) left bottom no-repeat,
+    -o-linear-gradient(to bottom, #f00, #f00) left bottom no-repeat,
+    -o-linear-gradient(to left, #f00, #f00) right bottom no-repeat,
+    -o-linear-gradient(to left, #f00, #f00) right bottom no-repeat;
+    background: -moz-linear-gradient(to left, #f00, #f00) left top no-repeat,
+    -moz-linear-gradient(to bottom, #f00, #f00) left top no-repeat,
+    -moz-linear-gradient(to left, #f00, #f00) right top no-repeat,
+    -moz-linear-gradient(to bottom, #f00, #f00) right top no-repeat,
+    -moz-linear-gradient(to left, #f00, #f00) left bottom no-repeat,
+    -moz-linear-gradient(to bottom, #f00, #f00) left bottom no-repeat,
+    -moz-linear-gradient(to left, #f00, #f00) right bottom no-repeat,
+    -moz-linear-gradient(to left, #f00, #f00) right bottom no-repeat;
+    background: linear-gradient(to left, #f00, #f00) left top no-repeat,
+    linear-gradient(to bottom, #f00, #f00) left top no-repeat,
+    linear-gradient(to left, #f00, #f00) right top no-repeat,
+    linear-gradient(to bottom, #f00, #f00) right top no-repeat,
+    linear-gradient(to left, #f00, #f00) left bottom no-repeat,
+    linear-gradient(to bottom, #f00, #f00) left bottom no-repeat,
+    linear-gradient(to left, #f00, #f00) right bottom no-repeat,
+    linear-gradient(to left, #f00, #f00) right bottom no-repeat;
+    background-size: 1px 20px, 20px 1px, 1px 20px, 20px 1px;
+}

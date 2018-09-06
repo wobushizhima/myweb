@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>下拉图片</title>
+    <style>
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content{
+            display: none;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>下拉图片</h1>
+    <p>移动鼠标到图片上显示下拉内容</p>
+    <div class="dropdown">
+        <img src="shit.jpg" alt="图片跑去火星了" width="50px" height="75px">
+        <div class="dropdown-content">
+            <img src="shit.jpg">
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #header {
+            background-color:#FFA500;
+        }
+
+        #left{
+            background-color: #FFD700;
+            width: 10%;
+
+        }
+        #footer{
+            text-align: center;
+            background-color:#FFA500;
+        }
+        #middle{
+            background-color:#EEEEEE;
+            width: 90%;
+        }
+        .clearfix {
+            /*zoom: 1;*/
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .clearfix>div{
+            height: 100%;
+        }
+
+        /*.clearfix:after {*/
+            /*content: "";*/
+            /*width: 0;*/
+            /*height: 0;*/
+            /*visibility: hidden;*/
+            /*clear: both;*/
+            /*overflow: hidden;*/
+        /*}*/
+    </style>
+</head>
+<body>
+    <div id="header"><h1 style="margin-bottom: 0">主要网页标题</h1></div>
+    <div class="clearfix">
+        <div id="left" style="float: left;"><b>菜单</b><br>HTML<br>CSS<br>JavaScript</div>
+        <div id="middle" style="float: left;">内容</div>
+    </div>
+    <div id="footer">版权</div>
+
+</body>
+</html>

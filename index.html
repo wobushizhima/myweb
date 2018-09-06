@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/common.css" type="text/css" />
+    <style>
+        body,html{
+            height: 100%;
+        }
+        #left{
+            /*background-color: red;*/
+            height: 100%;
+            float: left;
+            width: 50%;
+        }
+        #right{
+            height: 100%;
+            float: left;
+            width: 50%;
+        }
+        #pie{
+            height: 50%;
+        }
+        #bar{
+            height: 50%;
+            /*background-color: blue;*/
+        }
+        .card{
+            display:flex;
+        }
+        .card p{
+            float:left;
+        }
+        .time p{
+            float: left;
+        }
+        #map {
+            height: 30vh;
+            width: 70%;
+        }
+        #people{
+            height:20vh;
+            /*background-color: red;*/
+        }
+    </style>
+</head>
+<body>
+        <div id="left">
+            <div>
+                <h1>远程智慧康复大数据平台</h1>
+            </div>
+            <div class="num">
+                <div class="time"><p>今日新增人数</p><p>2018-08-26 16:23</p><div style="clear:both"></div></div>
+                <div class="card">
+                    <p>0</p>
+                    <p>0</p>
+                    <p>0</p>
+                    <p>2</p>
+                    <p>4</p>
+                    <p>3</p>
+                    <p>人</p>
+                    <div style="clear:both"></div>
+                </div>
+                <div>
+                    <p>昨日新增人数:243</p>
+                </div>
+                <div id="map"></div>
+                <div id="people"></div>
+            </div>
+            <!--<div id="main"></div>-->
+        </div>
+        <div id="right">
+            <div id="pie" class="corner"></div>
+            <div id="bar"></div>
+        </div>
+</body>
+    <script src="http://api.map.baidu.com/api?v=2.0&ak=53oVIOgmSIejwV7EfphPgTynOZbIiVYu"></script>
+    <script src="js/index/echarts.min.js"></script>
+    <script src="js/index/bmap.min.js"></script>
+    <script src="js/index/mymap.js"></script>
+    <script src="js/index/mypie.js"></script>
+    <script src="js/index/mybar.js"></script>
+</html>
