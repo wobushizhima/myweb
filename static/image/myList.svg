@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="749" height="262" viewBox="0 0 749 262">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill: #000;
+      }
+
+      .cls-1 {
+        stroke: url(#linear-gradient-1);
+        filter: url(#filter-chain-1);
+      }
+
+      .cls-1, .cls-2 {
+        stroke-linejoin: round;
+        stroke-width: 1px;
+        fill-opacity: 0;
+      }
+
+      .cls-2 {
+        stroke: url(#linear-gradient-2);
+        filter: url(#inner-glow-1);
+      }
+
+      .cls-3 {
+        filter: url(#color-overlay-1);
+        opacity: 0.89;
+      }
+
+      .cls-4 {
+        filter: url(#color-overlay-2);
+      }
+
+      .cls-5 {
+        filter: url(#color-overlay-10);
+      }
+    </style>
+
+    <linearGradient id="linear-gradient-1" gradientUnits="userSpaceOnUse" x1="374.5" y1="260" x2="374.5" y2="18">
+      <stop offset="0" stop-color="#3d89b9"/>
+      <stop offset="1" stop-color="#86bee1"/>
+    </linearGradient>
+    <filter id="filter-chain-1" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#004977" flood-opacity="0.3"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="SourceGraphic" result="solidFill"/>
+      <feGaussianBlur stdDeviation="8" in="SourceAlpha" result="innerGlowBlur"/>
+      <feFlood flood-color="#8dd1fc" flood-opacity="0.35"/>
+      <feComposite operator="out" in2="innerGlowBlur"/>
+      <feComposite operator="in" in2="SourceAlpha"/>
+      <feBlend mode="screen" in2="solidFill" result="innerGlow"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="375" y1="255" x2="375" y2="23" xlink:href="#linear-gradient-1"/>
+    <filter id="inner-glow-1" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="8" in="SourceAlpha" result="innerGlowBlur"/>
+      <feFlood flood-color="#8dd1fc" flood-opacity="0.35"/>
+      <feComposite operator="out" in2="innerGlowBlur"/>
+      <feComposite operator="in" in2="SourceAlpha"/>
+      <feBlend mode="screen" in2="SourceGraphic" result="innerGlow"/>
+    </filter>
+    <filter id="color-overlay-1" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#3d89b9"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="SourceGraphic" result="solidFill"/>
+    </filter>
+    <filter id="color-overlay-2" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#369ee0"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="SourceGraphic" result="solidFill"/>
+    </filter>
+    <filter id="color-overlay-10" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#4db5f7"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="SourceGraphic" result="solidFill"/>
+    </filter>
+  </defs>
+  <g>
+    <g style="fill: #000; filter: url(#filter-chain-1)">
+      <rect x="2" y="18" width="745" height="242" id="rect-1" style="stroke: inherit; filter: none; fill: inherit" class="cls-1"/>
+    </g>
+    <use xlink:href="#rect-1" style="stroke: url(#linear-gradient-1); filter: none; fill: none"/>
+    <rect x="8" y="23" width="734" height="232" class="cls-2"/>
+    <rect x="74" width="188" height="37" class="cls-3"/>
+    <rect x="1" y="18" width="3" height="45" class="cls-4"/>
+    <rect x="1" y="215" width="3" height="45" class="cls-4"/>
+    <rect x="745" y="215" width="3" height="45" class="cls-4"/>
+    <rect x="745" y="18" width="3" height="45" class="cls-4"/>
+    <rect x="703" y="17" width="45" height="3" class="cls-4"/>
+    <rect x="703" y="258" width="45" height="3" class="cls-4"/>
+    <rect x="1" y="258" width="45" height="3" class="cls-4"/>
+    <rect x="1" y="17" width="45" height="3" class="cls-4"/>
+    <rect y="16" width="20" height="5" class="cls-5"/>
+    <rect y="16" width="5" height="20" class="cls-5"/>
+    <rect y="242" width="5" height="20" class="cls-5"/>
+    <rect y="257" width="20" height="5" class="cls-5"/>
+    <rect x="728" y="257" width="20" height="5" class="cls-5"/>
+    <rect x="744" y="242" width="5" height="20" class="cls-5"/>
+    <rect x="744" y="16" width="5" height="20" class="cls-5"/>
+    <rect x="729" y="16" width="20" height="5" class="cls-5"/>
+  </g>
+</svg>
