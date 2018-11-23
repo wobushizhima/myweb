@@ -8,6 +8,10 @@
         body,html{
             height: 100%;
         }
+        #header{
+            background-color: #3989BB;
+            color: white;
+        }
         #left{
             /*background-color: red;*/
             height: 100%;
@@ -31,6 +35,9 @@
         }
         .card p{
             float:left;
+            background-color: #3989BB;
+            color: white;
+            margin: 2px;
         }
         .time p{
             float: left;
@@ -48,10 +55,10 @@
 <body>
         <div id="left">
             <div>
-                <h1>远程智慧康复大数据平台</h1>
+                <h1 id="header">远程智慧康复大数据平台</h1>
             </div>
             <div class="num">
-                <div class="time"><p>今日新增人数</p><p>2018-08-26 16:23</p><div style="clear:both"></div></div>
+                <div class="time"><p style="color:gold">今日新增人数</p><p style="color:blue">2018-08-26 16:23</p><div style="clear:both"></div></div>
                 <div class="card">
                     <p>0</p>
                     <p>0</p>
@@ -59,11 +66,11 @@
                     <p>2</p>
                     <p>4</p>
                     <p>3</p>
-                    <p>人</p>
+                    <p style="background-color: white;color: blue;">人</p>
                     <div style="clear:both"></div>
                 </div>
                 <div>
-                    <p>昨日新增人数:243</p>
+                    <p style="background-color: white;color: blue;">昨日新增人数:243</p>
                 </div>
                 <div id="map"></div>
                 <div id="people"></div>
@@ -72,7 +79,7 @@
         </div>
         <div id="right">
             <div id="pie" class="corner"></div>
-            <div id="bar"></div>
+            <div id="bar" class="corner"></div>
         </div>
 </body>
     <script src="http://api.map.baidu.com/api?v=2.0&ak=53oVIOgmSIejwV7EfphPgTynOZbIiVYu"></script>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <style>
+        html,body{
+            height:100%;
+            padding: 0px;
+            margin: 0px;
+        }
+        header{
+            height: 15%;
+            background-color: #0d6daa;
+        }
+        main{
+            height:80%;
+            display: flex;
+            justify-content: flex-start;
+        }
+        main section{
+            width:33%;
+        }
+        footer{
+            height:5%;
+            background-color:#FFD700;
+        }
+
+        ul{
+            margin: 0px;
+            display: flex;
+            justify-content: flex-start;
+        }
+        ul li {
+            list-style-type: none;
+            text-align: center;
+            width: 80px;
+            height: 20px;
+            line-height: 20px;
+            color: #036;
+            cursor: pointer;
+            margin-left: 5px;
+            /*margin-bottom: 35px;*/
+            margin-top:5%;
+        }
+        .left{
+            width:34%;
+            /*background-color: #003366;*/
+            /*padding: 120px;*/
+            /*margin: 20px;*/
+        }
+        .middle{
+            background-color: blue;
+        }
+        .right{
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body >
+    <header>
+        <ul>
+            <li>首页</li><li>第一页</li><li>第二页</li>
+        </ul>
+    </header>
+
+    <main>
+        <section class="left">左</section>
+        <section class="middle">中</section>
+        <section class="right">右</section>
+    </main>
+    <footer>333</footer>
+</body>
+</html>
